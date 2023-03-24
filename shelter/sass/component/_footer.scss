@@ -1,0 +1,53 @@
+footer{
+    background-color: $color-background-notOnly;
+    padding-top: 40px;
+    color: $color-pink;
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+.footer__h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color-background-about;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 20px;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: inline-block;
+    width: 40px;
+    height: 26px;
+    background-image: url(../img/mail.svg);
+    margin-right: 20px;
+}
+.phone{
+    display: inline-block;
+    width: 40px;
+    height: 32px;
+    background-image: url(../img/phone.svg);
+    margin-right: 20px;
+}
+.location{
+    display: inline-block;
+    width: 22px;
+    height: 32px;
+    background-image: url(../img/pin.svg);
+    margin-right: 20px;
+}
+.footer_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

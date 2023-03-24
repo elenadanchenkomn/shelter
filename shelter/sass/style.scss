@@ -1,0 +1,18 @@
+//@import "../node_modules/normalize-scss/sass/normalize";
+@import "./abstract/constans";
+@import "./loyauts/wrapper";
+@import "./base/base";
+@import "./base/buttons";
+@import "./abstract/placeholders";
+//components
+@import "./component/header";
+@import "./component/notOnly";
+@import "./component/about";
+@import "./component/ourFriends";
+@import "./component/help";
+@import "./component/inAddititon";
+@import "./component/footer";
+
+//layauts
+@import "./loyauts/column_3";
+@import "./loyauts/column_2";

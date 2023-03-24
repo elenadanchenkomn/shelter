@@ -1,0 +1,100 @@
+.ourFriends{
+    background-color: $color-background-oufFriends;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+}
+.ourFriends__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OurFriends__slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.ourFriends__h2{
+    font-size: 3.5rem;
+    line-height: 4.55rem;
+    color: $color-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ourFriends-pet__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourFriends_pet{
+    padding-bottom: 100px;
+}
+.nav-pet{
+    display: inline-block;
+    width: 5.2rem;
+    height: 5.2rem;
+    margin: 60px 0.7rem 0 0.7rem;
+    &_left2{
+        background-image: url(../img/pet_link2.svg);
+    }
+    &_left{
+        background-image: url(../img/pet_link.svg);
+    }
+    &_one{
+        background-image: url(../img/one.svg);
+    }
+    &_right{
+        background-image: url(../img/pet_right.svg);
+    }
+    &_right2{
+        background-image: url(../img/pet_right2.svg);
+    }
+        &:hover{
+          @extend %transform
+    }
+
+}
+
+.animal_card{
+    margin: 0 4.5rem;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    background-color: $color-background-about;
+      &:hover{
+        @extend %transform
+      }
+}
+.card-pet{
+    margin: 3rem 1rem;
+}
+.pet-h2{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.btn-link{
+    padding: 1.5rem 4.5rem ;
+    border-radius: 30px;
+    color: $color-dark-button;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+.arrow:hover{
+    cursor: pointer;
+   @extend %transform;
+   @extend %transition;
+}
+.pet__card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
