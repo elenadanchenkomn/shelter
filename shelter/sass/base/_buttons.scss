@@ -1,0 +1,23 @@
+.notOnly_button{
+    padding: 1.5rem 4.5rem ;
+    border-radius: 30px;
+    color: $color-dark-button;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    cursor: pointer;
+    &:hover{
+        @extend %transition;
+        @extend %transform;
+     }
+}
+
+.buttun_pink{
+    background-color: $color-pink;
+    border: none;
+}
+.buttun_wite{
+    border: solid 1px $color-pink;
+    background-color: $color-wite;
+    color: $color-dark-button;
+}

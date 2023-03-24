@@ -1,0 +1,6 @@
+.column_2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 42px;
+    justify-items: end;
+}
