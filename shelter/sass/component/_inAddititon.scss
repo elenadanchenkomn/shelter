@@ -1,0 +1,54 @@
+.inAddition{
+padding-top: 90px;
+padding-bottom: 100px;
+background-color: $color-background-oufFriends ;
+}
+.inAddition__wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    justify-items: end;
+}
+.inAdddition__content{
+    padding-right: 170px;
+    color: $color-dark;
+}
+.inAddition_tex{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 1.65rem;
+    color: $color-dark;
+}
+.inAddition__img{
+    padding: 0;
+}
+.text_inalik{
+    font-family: Arial, Helvetica, italic;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: $color-gray-dark;
+    padding-top: 15px;
+}
+.inAddition__h2{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.inAddition__link{
+    display: flex;
+    background-color: $color-pink;
+    border-radius: 10px;
+    color: $color-dark;
+    padding: 10px 15px;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    max-width: 349px;
+    margin-top: 20px;
+}
+.ico{
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+    background-image: url(../img/credit-card.svg);
+    margin-right: 15px;
+    
+}

@@ -1,0 +1,90 @@
+header{
+    background-color: $color-background-notOnly;
+    
+}
+
+.header__pet{
+    background-color: $color-background-about;
+    color: $color-dark;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.logo_p-pet{
+    color: $color-dark-button;
+}
+.logotip{
+    color: $color-pink;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    margin-bottom: 10px;
+}
+.logotip-pet{
+    color: $color-dark;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    margin-bottom: 10px;
+}
+.header_wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.header-link{
+    list-style: none;
+    padding: 0 17.5px;
+    color: $color-gray-dark;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        @extend %transform
+    }
+}
+.pink_line{
+    display: inline-block;
+    background-color: $color-pink;
+    width: 11.4rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+.dark-li{
+    list-style: none;
+    padding: 0 17.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: $color-dark;
+}
+.pet_link{
+    list-style: none;
+    padding: 0 17.5px;
+    color: $color-dark;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+      &:hover{
+        color: $color-dark-button;
+      }
+}
